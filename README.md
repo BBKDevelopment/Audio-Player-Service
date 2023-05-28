@@ -4,7 +4,7 @@
 [![Powered by Mason](https://img.shields.io/endpoint?url=https%3A%2F%2Ftinyurl.com%2Fmason-badge)](https://github.com/felangel/mason)
 [![License: MIT][license_badge]][license_link]
 
-Audio Player Service
+This service wraps the [just_audio][just_audio_link] and provides secure usage of the plugin by handling exceptions.
 
 ## Installation 💻
 
@@ -57,6 +57,7 @@ genhtml coverage/lcov.info -o coverage/
 open coverage/index.html
 ```
 
+[just_audio_link]: https://github.com/ryanheise/just_audio
 [flutter_install_link]: https://docs.flutter.dev/get-started/install
 [github_actions_link]: https://docs.github.com/en/actions/learn-github-actions
 [license_badge]: https://img.shields.io/badge/license-MIT-blue.svg
