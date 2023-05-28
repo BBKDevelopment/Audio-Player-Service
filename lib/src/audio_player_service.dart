@@ -29,7 +29,7 @@ class AudioListenerException implements Exception {}
 /// {@template audio_player_service}
 /// A service that handles audio playback.
 ///
-/// This service uses the [AudioPlayer] package to play audio.
+/// This service uses the `just_audio` package to play audio.
 ///
 /// ```dart
 /// final audioPlayerService = AudioPlayerService(
