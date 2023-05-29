@@ -15,6 +15,9 @@ Add `audio_player_service` to your `pubspec.yaml`:
 ```yaml
 dependencies:
   audio_player_service:
+    git:
+      url: https://github.com/BBKDevelopment/Audio-Player-Service.git
+      ref: v1.0.0
 ```
 
 Install it:
